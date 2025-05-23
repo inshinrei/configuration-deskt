@@ -1,0 +1,8 @@
+hyper - f : yabai -m window --toggle zoom-fullscreen
+hyper - h : yabai -m window --focus prev
+hyper - l : yabai -m window --focus next
+hyper - r : yabai -m window --focus recent
+hyper - s : yabai -m window --swap recent
+
+hyper - y : yabai -m display --focus prev
+hyper - o : yabai -m display --focus next
