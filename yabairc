@@ -16,6 +16,6 @@ yabai -m config                                  \
 yabai -m rule --add \
     app="^System Preferences$" sticky=on layer=above manage=off
 
-borders active_color=0xffe1e3e4 inactive_color=0xff494d64 width=5.0 &
+borders active_color=0xffff1414 inactive_color=0xff494d64 width=5.0 &
 
 echo "yabai config loaded"
