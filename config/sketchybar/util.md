@@ -1,0 +1,2 @@
+plugins chmod
+`find . -type f -name "*.sh" -exec chmod +x {} \;`
