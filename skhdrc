@@ -1,10 +1,30 @@
-hyper - f : yabai -m window --toggle zoom-fullscreen
-hyper - h : yabai -m window --focus prev
-hyper - l : yabai -m window --focus next
-hyper - r : yabai -m window --focus recent
-hyper - s : yabai -m window --swap recent
+#.blacklist [
+#   "kitty"
+#   "terminal"
+#   "qutebrowser"
+#]
 
-hyper - y : yabai -m display --focus prev
-hyper - o : yabai -m display --focus next
+# moves focus between windows in the current focused display
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
 
-hyper - cmd : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+# delete focused space
+alt - q : yabai -m space --destroy
+
+# toggle window split type
+alt - e : yabai -m window --toggle split
+
+# toogle window layout
+fn - b : yabai -m space --layout bsp
+fn - t : yabai -m space --layout stack
+fn - f : yabai -m space --layout float
+
+# close window
+alt - x : yabai -m window --close
+
+# minimize window
+alt - m : yabai -m window --minimize
+
+alt - return : open -n -a "kitty"
