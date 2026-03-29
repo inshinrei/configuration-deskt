@@ -3,3 +3,5 @@ plugins chmod
 
 font/icons
 `brew install --cask sf-symbols`
+
+symlinking bottombar `ln -s $(which sketchybar) $(dirname $(which sketchybar))/bottombar`
