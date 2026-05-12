@@ -16,7 +16,7 @@ yabai -m config                                  \
 yabai -m rule --add \
     app="^System Preferences$" sticky=on layer=above manage=off
 
-borders active_color=0xfffc1414 inactive_color=0xff494d64 width=8.0 &
+borders active_color=0xff64ace3 inactive_color=0xff494d64 width=8.0 &
 
 yabai -m signal --add event=display_changed action="borders active_color=0xfffc1414 inactive_color=0xff494d64 width=8.0" &
 
