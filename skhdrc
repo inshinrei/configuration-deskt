@@ -27,4 +27,6 @@ alt - x : yabai -m window --close
 # minimize window
 alt - m : yabai -m window --minimize
 
+alt - s : yabai -m window --swap recent
+
 alt - return : open -n -a "kitty"
